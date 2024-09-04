@@ -1,0 +1,34 @@
+/* Estilo general para la página de estadísticas */
+.estadisticas-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  .estadisticas-container h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+  }
+  
+  .estadisticas-container p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+  .estadisticas-container p strong {
+    color: #333;
+  }
+  
+  @media (max-width: 600px) {
+    .estadisticas-container {
+      padding: 15px;
+    }
+  }
+  
